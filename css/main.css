@@ -1,0 +1,196 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+header{
+    height: 100vh;
+    background-color: #fcdb00;
+    color: #010101;
+    padding-top: 8vh;
+    padding-bottom: 4vh;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4{
+    font-weight: 700;
+    color: #010101;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-weight: 400;
+}
+.menu{
+    margin-top: 0.5vh;
+}
+.menu__item{
+margin: 0 3vw;
+}
+.menu__item a{
+    font: 700 22px 'PT Sans', sans-serif;
+    color: #010101;
+    transition: .2s all linear;
+}
+.offer{
+    margin-top: 5vh;
+    padding-right: 5vw;
+}
+.offer__title{
+    font-size: 4.5vh;
+    margin-bottom: 3vh;
+}
+.offer__intro{
+    font-size: 3.1vh;
+    margin-bottom: 3vh;
+    line-height: 1.3;
+}
+.offer__text{
+    font-size: 2.8vh;
+    margin-bottom: 4vh;
+    color: #555555;
+    line-height: 1.3;
+}
+.icons__item{
+    margin-right: 30px;
+    transition: 0.2s all linear;
+}
+.icons__item:last-child{
+    margin-right: 0px;
+}
+.icons__item a{
+    color: #010101;
+    font-size: 40px;
+    transition: 0.2s all linear;
+}
+.icons__item:hover{
+    transform: scale(1.1);
+}
+.icons__item a:hover{
+    text-decoration: none;
+}
+.ipad{
+    display: block;
+    margin: 8vh auto 0;
+    height: 65vh;
+}
+.title{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+.title__main{
+    font-size: 3.5vh;
+    margin-bottom: 3vh;
+}
+.title__text{
+    font-size: 2.5vh;
+    color: #313841;
+    max-width: 780px;
+    margin: 0 auto;
+}
+.feature{
+    margin-bottom: 8vh;
+}
+.feature i{
+    font-size: 6vh;
+    margin-right: 1.5vw;
+    color: #010101;
+}
+.touch{
+    background-color: #010101;
+    color: #ffffff;
+    padding-bottom: 10vh;
+}
+.title__main.yellow{
+    color: #fcdb00;
+}
+.title__text.light{
+    color: #898989;
+}
+.form{
+    text-align: center;
+
+}
+.form__input{
+    background-color: #ffffff;
+    font-size: 2vh;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 3px;
+    width: 30vw;
+    border: 0px solid transparent;
+    padding: 10px;
+    outline: none;
+}
+.form__btn{
+    background-color: #fcdb00;
+    border: 0px solid transparent;
+    text-transform: uppercase;
+    font-size: 2vh;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 3px;
+    padding: 10px 30px;
+    margin-left: 2vw;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s all linear;
+    outline: none;
+}
+.form__btn:hover{
+    transform: scale(1.1);
+}
+footer{
+    background-color: #010101;
+    color: #ffffff;
+    padding-bottom: 12vh;
+    font-size: 2vh;
+}
+.credits{
+    width: 12vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px){
+    .logo{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4vh;
+    }
+    .qwer{
+        display: flex;
+    }
+    .offer{
+        text-align: center;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+    .offer__title{
+        margin: 7vh 0 4vh;
+    }
+    .icons{
+        justify-content: center;
+    }
+    .credits{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 992px){
+    header{
+        height: auto;
+    }
+    .form__input{
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+    .form__btn{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .ipad {
+        width: 100%;
+    }
+}
